@@ -34,7 +34,7 @@ if __name__ == '__main__':
         
         # ingest data to dwh
         df.to_sql(
-            'dim_orders_ricky',
+            'dim_orders_ali',
             engine_dwh,
             schema='public',
             if_exists='append', # replace or append
